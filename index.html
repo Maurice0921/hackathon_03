@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,22 +20,27 @@
             </ul>
         </nav>
     </section>
-    <form class="formulario" action="">
-            <h1 class="contacto">Contacto</h1>
-            
-            <p>
+    <div>
+        <form action="">
+             
+            <header class="name">
+                <h1>Contacto</h1>
+            </header>
+           
+            <p class="fullname">
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Apellido" >
             </p>
-            <p>
+            <p class="contact">
                 <input type="email" placeholder="Email">
                 <input type="tel" placeholder="Teléfono"  minlength="7" max="9">
-            </p>
-            <p>
+            </p>                  
+            <p class="description">
                 <textarea name="" id="" cols="48" rows="10" placeholder="Descripcion"></textarea>
-            </p>
-            <input type="submit">
-    </form>
-  
+            </p>   
+            <input type="submit" class="boton">
+        
+        </form>
+    </div>
 </body>
 </html>
